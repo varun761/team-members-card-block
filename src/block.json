@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/team-members-showcase",
+	"version": "0.1.0",
+	"title": "Team Members Showcase",
+	"category": "widgets",
+	"icon": "flag",
+	"description": "A Gutenberg block to show your pride! This block enables you to type text and style it with the color font Gilbert from Type with Pride.",
+	"attributes": {
+		"image": {
+			"type": "string",
+			"default": ""
+		},
+		"name": {
+			"type": "string",
+			"source": "html",
+			"selector": ".name"
+		},
+		"designation": {
+			"type": "string",
+			"source": "html",
+			"selector": ".designation"
+		},
+		"year_of_experience": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"html": true
+	},
+	"textdomain": "team-members-showcase",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

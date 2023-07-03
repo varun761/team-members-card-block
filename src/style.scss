@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-team-members-showcase {
+	text-align: center;
+	.name {
+		color: #000;
+		font-size: 18px;
+		font-weight: 500;
+		margin: 5px 0;
+	}
+
+	.designation {
+		color: #000;
+		font-size: 15px;
+		font-weight: 300;
+		margin: 5px 0;
+	}
+
+	.year_of_experience {
+		color: #000;
+		font-size: 14px;
+		font-weight: 400;
+		margin: 5px 0;
+	}
+}
