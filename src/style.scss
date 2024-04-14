@@ -11,30 +11,31 @@
 	margin-bottom: 20px !important;
 	.name {
 		color: #000;
-		font-size: 18px;
+		font-size: 22px;
 		font-weight: 500;
 		margin: 5px 0;
 	}
 
 	.designation {
 		color: #000;
-		font-size: 15px;
-		font-weight: 300;
+		font-size: 16px;
+		font-weight: 400;
 		margin: 5px 0;
 	}
 
 	.year_of_experience {
 		color: #000;
 		font-size: 14px;
-		font-weight: 400;
+		font-weight: 300;
 		margin: 5px 0;
 	}
 	
 	img {
 		width: 100%;
 		max-width: 250px;
+		border-radius: 50%;
 	}
-	@media screen and (max-width: 768px) {
+	@media screen and (min-width: 600px) and (max-width: 780px) {
 		img {
 			max-width: 100%;
 		}
